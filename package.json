@@ -1,5 +1,9 @@
 {
-    "dependencies": {
+        "author": "Iva Krstik",
+    "license": "MIT",
+    "version": "1.0.0",
+    "description": "E2E test cases on Newegg page for bootcamp",
+	"dependencies": {
         "create-wdio": "^7.2.0"
     },
     "devDependencies": {
