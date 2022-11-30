@@ -1,0 +1,235 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669811824045' stop='1669811836897'>
+    <name>Bootcamp E2E: Internet shop logo button</name>
+    <title>Bootcamp E2E: Internet shop logo button</title>
+    <test-cases>
+        <test-case start='1669811824047' status='passed' stop='1669811824053'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669811824053' status='passed' stop='1669811833493'>
+            <name>Given I am on the Newegg home page</name>
+            <title>Given I am on the Newegg home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps>
+                <step start='1669811824061' status='passed' stop='1669811833490'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='6420579b-dcc6-466e-8881-82dca0c9b787-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669811833493' status='passed' stop='1669811836886'>
+            <name>* I can close the promo banner if it appears</name>
+            <title>* I can close the promo banner if it appears</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps>
+                <step start='1669811833500' status='passed' stop='1669811833719'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='f3636a53-7fa8-41b1-af54-50f557f3f58f-attachment.json' type='application/json' size='58'/>
+                        <attachment title='Response' source='4c5cb05d-9bfc-4d5e-80df-33e4cbdb3e45-attachment.json' type='application/json' size='1025'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669811833738' status='passed' stop='1669811833935'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='43de6d33-f9ec-4290-872e-249684e89fd2-attachment.json' type='application/json' size='58'/>
+                        <attachment title='Response' source='339eb752-d7aa-4573-a62d-e3e10aca1fe4-attachment.json' type='application/json' size='1025'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669811834237' status='passed' stop='1669811835007'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='a7727a91-25e1-4a76-ab76-4497c856e5db-attachment.json' type='application/json' size='58'/>
+                        <attachment title='Response' source='f144fb70-2a7e-48c7-85e6-4534f1085f4e-attachment.json' type='application/json' size='1025'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669811835021' status='passed' stop='1669811835116'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='8841cf41-1b33-4556-9f7c-42b2599285ca-attachment.json' type='application/json' size='58'/>
+                        <attachment title='Response' source='f3e2dabf-48dc-4220-98f8-fab7f251c700-attachment.json' type='application/json' size='1025'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669811835240' status='passed' stop='1669811835783'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='40c8bc41-dd72-4944-b9f4-9f4cdfc52f20-attachment.json' type='application/json' size='58'/>
+                        <attachment title='Response' source='8d673999-97a4-4473-ada5-9a794ac0a251-attachment.json' type='application/json' size='1025'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669811835796' status='passed' stop='1669811836102'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='34c46090-445a-4443-9329-8ef8f3719fe8-attachment.json' type='application/json' size='58'/>
+                        <attachment title='Response' source='6bdf2968-642d-44ab-ac75-7648b4266baf-attachment.json' type='application/json' size='1025'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669811836236' status='passed' stop='1669811836428'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='3dd07918-4bac-4db4-a1a2-b970cff22d28-attachment.json' type='application/json' size='58'/>
+                        <attachment title='Response' source='b5ea146a-30a7-4ea6-9778-6a18a44593ab-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669811836432' status='passed' stop='1669811836508'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='eadeb127-be57-44d7-83f5-c642e01a8564-attachment.json' type='application/json' size='8338'/>
+                        <attachment title='Response' source='4cf15c26-146e-477a-88bf-d9593da0563c-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669811836509' status='passed' stop='1669811836579'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='7c22a5fb-570d-4a6f-b021-c5596db0d8e2-attachment.json' type='application/json' size='5649'/>
+                        <attachment title='Response' source='ab246960-e441-43e5-876e-6a01338e4ba8-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669811836581' status='passed' stop='1669811836636'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='142010ad-d431-4e60-bff9-4c87cffaa4f4-attachment.json' type='application/json' size='114'/>
+                        <attachment title='Response' source='2748727f-e303-4b47-a6fc-063c79fb3035-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669811836642' status='passed' stop='1669811836884'>
+                    <name>POST /session/:sessionId/element/c49aa61a-a80e-4458-822c-80b863dafb69/click</name>
+                    <title>POST /session/:sessionId/element/c49aa61a-a80e-4458-822c-80b863dafb69/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669811836886' status='broken' stop='1669811836888'>
+            <name>When I open Today's Best Deals tab</name>
+            <title>When I open Today's Best Deals tab</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I open Today's Best Deals tab" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I open Today's Best Deals tab" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\iva\OneDrive\Documents\EvolutionQABootcamp\repos\E2E-Bootcamp-Hometask\features\bootcamp.feature):1:1
+                	at Scenario(Internet shop logo button):13:3
+                	at Step(I open Today's Best Deals tab):14:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669811836888' status='broken' stop='1669811836890'>
+            <name>* I click on the Internet shop logo located top right corner</name>
+            <title>* I click on the Internet shop logo located top right corner</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I click on the Internet shop logo located top right corner" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I click on the Internet shop logo located top right corner" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\iva\OneDrive\Documents\EvolutionQABootcamp\repos\E2E-Bootcamp-Hometask\features\bootcamp.feature):1:1
+                	at Scenario(Internet shop logo button):13:3
+                	at Step(I click on the Internet shop logo located top right corner):15:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669811836891' status='broken' stop='1669811836892'>
+            <name>Then I should see that the main page is opened</name>
+            <title>Then I should see that the main page is opened</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I should see that the main page is opened" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I should see that the main page is opened" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\iva\OneDrive\Documents\EvolutionQABootcamp\repos\E2E-Bootcamp-Hometask\features\bootcamp.feature):1:1
+                	at Scenario(Internet shop logo button):13:3
+                	at Step(I should see that the main page is opened):16:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669811836893' status='passed' stop='1669811836894'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

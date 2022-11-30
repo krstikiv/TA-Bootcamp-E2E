@@ -1,0 +1,187 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669666877224' stop='1669666886144'>
+    <name>Bootcamp E2E: Search Bar</name>
+    <title>Bootcamp E2E: Search Bar</title>
+    <test-cases>
+        <test-case start='1669666877225' status='passed' stop='1669666877227'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669666877227' status='passed' stop='1669666882966'>
+            <name>Given You are on Newegg home page</name>
+            <title>Given You are on Newegg home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps>
+                <step start='1669666877229' status='passed' stop='1669666882963'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='edabb38e-d835-4eb0-aabe-28d807ce8a98-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669666882966' status='broken' stop='1669666886121'>
+            <name>* Close the promo banner if it appears</name>
+            <title>* Close the promo banner if it appears</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps>
+                <step start='1669666882971' status='passed' stop='1669666883093'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='68c19289-ecc2-4887-8dba-c87d3a78fc7e-attachment.json' type='application/json' size='58'/>
+                        <attachment title='Response' source='fc2cb335-3146-463f-8614-34cd3d6622a0-attachment.json' type='application/json' size='1025'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669666883109' status='passed' stop='1669666884217'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='29bf8ff8-a6bd-44dd-8ac3-c5e60c5200c4-attachment.json' type='application/json' size='58'/>
+                        <attachment title='Response' source='c3c7dc4c-36d4-47ce-85f6-9bf59570ef7e-attachment.json' type='application/json' size='1025'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669666884233' status='passed' stop='1669666884422'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='4f2a98e1-a882-4d53-b9f5-d382b80e4580-attachment.json' type='application/json' size='58'/>
+                        <attachment title='Response' source='b65d0f52-61b0-4878-911d-aa8ec40c8ce1-attachment.json' type='application/json' size='1025'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669666884437' status='passed' stop='1669666885421'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='3d15e96d-95a7-4606-bda9-a2015b54313a-attachment.json' type='application/json' size='58'/>
+                        <attachment title='Response' source='a0951c0b-04eb-4c80-ae06-b9250c99b2c4-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669666885425' status='broken' stop='1669666886121'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='f709609d-66bc-45e1-b718-7a80e4a211cc-attachment.json' type='application/json' size='8338'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: element ("#modal-Website") still not displayed after 3000ms</message>
+                <stack-trace>Error: element ("#modal-Website") still not displayed after 3000ms
+                    at C:\Users\iva\OneDrive\Documents\EvolutionQABootcamp\repos\E2E-Bootcamp-Hometask\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+                    at async Element.wrapCommandFn (C:\Users\iva\OneDrive\Documents\EvolutionQABootcamp\repos\E2E-Bootcamp-Hometask\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\iva\OneDrive\Documents\EvolutionQABootcamp\repos\E2E-Bootcamp-Hometask\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (C:\Users\iva\OneDrive\Documents\EvolutionQABootcamp\repos\E2E-Bootcamp-Hometask\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.wrapCommandFn (C:\Users\iva\OneDrive\Documents\EvolutionQABootcamp\repos\E2E-Bootcamp-Hometask\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\iva\OneDrive\Documents\EvolutionQABootcamp\repos\E2E-Bootcamp-Hometask\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (C:\Users\iva\OneDrive\Documents\EvolutionQABootcamp\repos\E2E-Bootcamp-Hometask\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async World.&lt;anonymous> (C:\Users\iva\OneDrive\Documents\EvolutionQABootcamp\repos\E2E-Bootcamp-Hometask\features\step-definitions\steps.js:9:3)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669666886121' status='broken' stop='1669666886128'>
+            <name>When You enter the word "Windows" in the search bar (top middle)</name>
+            <title>When You enter the word "Windows" in the search bar (top middle)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "You enter the word "Windows" in the search bar (top middle)" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "You enter the word "Windows" in the search bar (top middle)" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\iva\OneDrive\Documents\EvolutionQABootcamp\repos\E2E-Bootcamp-Hometask\features\bootcamp.feature):1:1
+                	at Scenario(Search Bar):7:3
+                	at Step(You enter the word "Windows" in the search bar (top middle)):8:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669666886128' status='broken' stop='1669666886134'>
+            <name>* Click the search button</name>
+            <title>* Click the search button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "Click the search button" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "Click the search button" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\iva\OneDrive\Documents\EvolutionQABootcamp\repos\E2E-Bootcamp-Hometask\features\bootcamp.feature):1:1
+                	at Scenario(Search Bar):7:3
+                	at Step(Click the search button):9:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669666886137' status='pending' stop='1669666886139'>
+            <name>Then Check that at least one item appears</name>
+            <title>Then Check that at least one item appears</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669666886139' status='passed' stop='1669666886140'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

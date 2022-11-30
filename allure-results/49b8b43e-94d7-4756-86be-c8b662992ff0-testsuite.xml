@@ -1,0 +1,145 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669656279247' stop='1669656285694'>
+    <name>Bootcamp E2E: Search Bar</name>
+    <title>Bootcamp E2E: Search Bar</title>
+    <test-cases>
+        <test-case start='1669656279249' status='passed' stop='1669656279251'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669656279252' status='passed' stop='1669656285687'>
+            <name>Given You are on Newegg home page</name>
+            <title>Given You are on Newegg home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps>
+                <step start='1669656279256' status='passed' stop='1669656285684'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='0b5dd826-2ce6-42e7-bbfd-11e16e68e38b-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669656285687' status='broken' stop='1669656285688'>
+            <name>* Close the promo banner if it appears</name>
+            <title>* Close the promo banner if it appears</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "Close the promo banner if it appears" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "Close the promo banner if it appears" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\iva\OneDrive\Documents\EvolutionQABootcamp\repos\E2E-Bootcamp-Hometask\features\bootcamp.feature):1:1
+                	at Scenario(Search Bar):7:3
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669656285689' status='broken' stop='1669656285689'>
+            <name>When You enter the word "Windows" in the search bar (top middle)</name>
+            <title>When You enter the word "Windows" in the search bar (top middle)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "You enter the word "Windows" in the search bar (top middle)" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "You enter the word "Windows" in the search bar (top middle)" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\iva\OneDrive\Documents\EvolutionQABootcamp\repos\E2E-Bootcamp-Hometask\features\bootcamp.feature):1:1
+                	at Scenario(Search Bar):7:3
+                	at Step(You enter the word "Windows" in the search bar (top middle)):8:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669656285690' status='broken' stop='1669656285690'>
+            <name>* Click the search</name>
+            <title>* Click the search</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "Click the search" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "Click the search" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\iva\OneDrive\Documents\EvolutionQABootcamp\repos\E2E-Bootcamp-Hometask\features\bootcamp.feature):1:1
+                	at Scenario(Search Bar):7:3
+                	at Step(Click the search):9:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669656285691' status='broken' stop='1669656285691'>
+            <name>Then Check that at least one item appears</name>
+            <title>Then Check that at least one item appears</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "Check that at least one item appears" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "Check that at least one item appears" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\iva\OneDrive\Documents\EvolutionQABootcamp\repos\E2E-Bootcamp-Hometask\features\bootcamp.feature):1:1
+                	at Scenario(Search Bar):7:3
+                	at Step(Check that at least one item appears):10:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669656285692' status='passed' stop='1669656285693'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

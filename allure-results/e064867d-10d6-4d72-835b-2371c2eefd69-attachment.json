@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"li.swipeout\"}\n  (Session info: chrome=107.0.5304.121)",
+  "stacktrace": "Backtrace:\n\tOrdinal0 [0x002CACD3+2075859]\n\tOrdinal0 [0x0025EE61+1633889]\n\tOrdinal0 [0x0015B7BD+571325]\n\tOrdinal0 [0x0018AC2F+764975]\n\tOrdinal0 [0x0018AE1B+765467]\n\tOrdinal0 [0x001BD0F2+970994]\n\tOrdinal0 [0x001A7364+881508]\n\tOrdinal0 [0x001BB56A+963946]\n\tOrdinal0 [0x001A7136+880950]\n\tOrdinal0 [0x0017FEFD+720637]\n\tOrdinal0 [0x00180F3F+724799]\n\tGetHandleVerifier [0x0057EED2+2769538]\n\tGetHandleVerifier [0x00570D95+2711877]\n\tGetHandleVerifier [0x0035A03A+521194]\n\tGetHandleVerifier [0x00358DA0+516432]\n\tOrdinal0 [0x0026682C+1665068]\n\tOrdinal0 [0x0026B128+1683752]\n\tOrdinal0 [0x0026B215+1683989]\n\tOrdinal0 [0x00276484+1729668]\n\tBaseThreadInitThunk [0x7582FEF9+25]\n\tRtlGetAppContainerNamedObjectPath [0x770E7BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x770E7B8E+238]\n\t(No symbol) [0x00000000]\n"
+}
